@@ -108,7 +108,7 @@
     "medical",
     "radiology"
   ],
-  "license": "MIT",
+  "license": "CC-BY-NC-4.0",
   "devDependencies": {
     "@abasb75/dicom-parser": "^0.0.21",
     "fs": "^0.0.1-security",

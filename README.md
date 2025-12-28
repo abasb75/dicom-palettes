@@ -67,3 +67,10 @@ This package provides a collection of 256-level color palettes/colormaps, derive
   Licensed under MIT.
 
 The OHIF Viewers and colormap-shaders projects are both under the MIT License. Full license texts are available in their respective repositories.
+
+
+## License
+
+Non-commercial use is free with attribution required.  
+Commercial use requires explicit permission.  
+See the [LICENSE](LICENSE) file for details.
