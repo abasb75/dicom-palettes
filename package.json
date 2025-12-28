@@ -1,0 +1,121 @@
+{
+  "name": "@abasb75/dicom-palettes",
+  "version": "0.0.02",
+  "description": "Most commonly used DICOM color palettes",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+
+    "./well-known/hotIron": {
+      "import": "./dist/hotIron.js",
+      "require": "./dist/hotIron.cjs"
+    },
+    "./well-known/hotMetalBlue": {
+      "import": "./dist/hotMetalBlue.js",
+      "require": "./dist/hotMetalBlue.cjs"
+    },
+    "./well-known/pet": {
+      "import": "./dist/pet.js",
+      "require": "./dist/pet.cjs"
+    },
+    "./well-known/pet20Step": {
+      "import": "./dist/pet20Step.js",
+      "require": "./dist/pet20Step.cjs"
+    },
+    "./well-known/spring": {
+      "import": "./dist/spring.js",
+      "require": "./dist/spring.cjs"
+    },
+    "./well-known/summer": {
+      "import": "./dist/summer.js",
+      "require": "./dist/summer.cjs"
+    },
+    "./well-known/fall": {
+      "import": "./dist/fall.js",
+      "require": "./dist/fall.cjs"
+    },
+    "./well-known/winter": {
+      "import": "./dist/winter.js",
+      "require": "./dist/winter.cjs"
+    },
+
+    "./ge": {
+      "import": "./dist/ge.js",
+      "require": "./dist/ge.cjs"
+    },
+    "./ge256": {
+      "import": "./dist/ge256.js",
+      "require": "./dist/ge256.cjs"
+    },
+    "./colormaps": {
+      "import": "./dist/colormaps.js",
+      "require": "./dist/colormaps.cjs"
+    },
+    "./grayscale": {
+      "import": "./dist/grayscale.js",
+      "require": "./dist/grayscale.cjs"
+    },
+    "./hsv": {
+      "import": "./dist/hsv.js",
+      "require": "./dist/hsv.cjs"
+    },
+    "./isodose": {
+      "import": "./dist/isodose.js",
+      "require": "./dist/isodose.cjs"
+    },
+    "./perfusion": {
+      "import": "./dist/perfusion.js",
+      "require": "./dist/perfusion.cjs"
+    },
+    "./rainbow2": {
+      "import": "./dist/rainbow2.js",
+      "require": "./dist/rainbow2.cjs"
+    },
+    "./redHot": {
+      "import": "./dist/redHot.js",
+      "require": "./dist/redHot.cjs"
+    },
+    "./siemens": {
+      "import": "./dist/siemens.js",
+      "require": "./dist/siemens.cjs"
+    },
+    "./spet": {
+      "import": "./dist/spet.js",
+      "require": "./dist/spet.cjs"
+    },
+    "./suv": {
+      "import": "./dist/suv.js",
+      "require": "./dist/suv.cjs"
+    },
+    "./xray": {
+      "import": "./dist/xray.js",
+      "require": "./dist/xray.cjs"
+    }
+  },
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "dicom",
+    "parser",
+    "medical",
+    "radiology"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@abasb75/dicom-parser": "^0.0.21",
+    "fs": "^0.0.1-security",
+    "glob": "^13.0.0",
+    "path": "^0.12.7",
+    "sharp": "^0.34.5",
+    "tsup": "^8.5.1",
+    "util": "^0.12.5"
+  }
+}
