@@ -1,46 +1,44 @@
 {
   "name": "@abasb75/dicom-palettes",
-  "version": "0.0.02",
+  "version": "0.0.04",
   "description": "Most commonly used DICOM color palettes",
   "exports": {
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-
     "./well-known/hotIron": {
-      "import": "./dist/hotIron.js",
-      "require": "./dist/hotIron.cjs"
+      "import": "./dist/well-known/hotIron.js",
+      "require": "./dist/well-known/hotIron.cjs"
     },
     "./well-known/hotMetalBlue": {
-      "import": "./dist/hotMetalBlue.js",
-      "require": "./dist/hotMetalBlue.cjs"
+      "import": "./dist/well-known/hotMetalBlue.js",
+      "require": "./dist/well-known/hotMetalBlue.cjs"
     },
     "./well-known/pet": {
-      "import": "./dist/pet.js",
-      "require": "./dist/pet.cjs"
+      "import": "./dist/well-known/pet.js",
+      "require": "./dist/well-known/pet.cjs"
     },
     "./well-known/pet20Step": {
-      "import": "./dist/pet20Step.js",
-      "require": "./dist/pet20Step.cjs"
+      "import": "./dist/well-known/pet20Step.js",
+      "require": "./dist/well-known/pet20Step.cjs"
     },
     "./well-known/spring": {
-      "import": "./dist/spring.js",
-      "require": "./dist/spring.cjs"
+      "import": "./dist/well-known/spring.js",
+      "require": "./dist/well-known/spring.cjs"
     },
     "./well-known/summer": {
-      "import": "./dist/summer.js",
-      "require": "./dist/summer.cjs"
+      "import": "./dist/well-known/summer.js",
+      "require": "./dist/well-known/summer.cjs"
     },
     "./well-known/fall": {
-      "import": "./dist/fall.js",
-      "require": "./dist/fall.cjs"
+      "import": "./dist/well-known/fall.js",
+      "require": "./dist/well-known/fall.cjs"
     },
     "./well-known/winter": {
-      "import": "./dist/winter.js",
-      "require": "./dist/winter.cjs"
+      "import": "./dist/well-known/winter.js",
+      "require": "./dist/well-known/winter.cjs"
     },
-
     "./ge": {
       "import": "./dist/ge.js",
       "require": "./dist/ge.cjs"
@@ -116,6 +114,7 @@
     "path": "^0.12.7",
     "sharp": "^0.34.5",
     "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
     "util": "^0.12.5"
   }
 }

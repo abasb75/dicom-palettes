@@ -15,14 +15,15 @@ npm install @abasb75/dicom-palettes
 import individual palettes or the full collection:
 
 ```js
-import Fall from "@abasb75/dicom-palettes/well-known/Fall";
+
+import Fall from "@abasb75/dicom-palettes/well-known/fall";
 import HotIron from "@abasb75/dicom-palettes/well-known/hotIron";
 import HotMetalBlue from "@abasb75/dicom-palettes/well-known/hotMetalBlue";
 import Pet from "@abasb75/dicom-palettes/well-known/pet";
 import Pet20Step from "@abasb75/dicom-palettes/well-known/pet20Step";
 import Spring from "@abasb75/dicom-palettes/well-known/spring";
-import Summer from "@abasb75/dicom-palettes/well-known/Summer";
-import Winter from "@abasb75/dicom-palettes/well-known/Winter";
+import Summer from "@abasb75/dicom-palettes/well-known/summer";
+import Winter from "@abasb75/dicom-palettes/well-known/winter";
 
 import RedHOT from "@abasb75/dicom-palettes/redHot";
 import GE from "@abasb75/dicom-palettes/ge";
@@ -36,11 +37,6 @@ import Perfusion from "@abasb75/dicom-palettes/perfusion";
 import XRay from "@abasb75/dicom-palettes/xray";
 import Isodose from "@abasb75/dicom-palettes/isodose";
 import HSV from "@abasb75/dicom-palettes/hsv";
-
-
-import colormaps from "@abasb75/dicom-palettes/colormaps";
-
-
 console.log(HotIron);
 
 ```
@@ -53,7 +49,6 @@ This package provides a collection of 256-level color palettes/colormaps, derive
 - **DICOM Standard (NEMA)**  
   Standard DICOM palettes (e.g., Hot Iron, PET, Hot Metal Blue, etc.) are directly extracted without modification from the official DICOM Standard.  
   Defined in Part 6, Annex B: Well-Known Color Palettes.  
-  Link: [DICOM Standard - Annex B](https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_B.html)  
   (Public domain, maintained by National Electrical Manufacturers Association - NEMA)
 
 - **OHIF Viewers**  
